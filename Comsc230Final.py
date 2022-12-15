@@ -30,5 +30,5 @@ df = data[selections]
 g = sb.PairGrid(df)# call seaborn to combine columns data
 g.map(plt.scatter); #Create Scatter Plots
 
-
-
+data['Diagnosis'].value_counts()
+data['PainType'].value_counts()
